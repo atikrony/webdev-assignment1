@@ -4,76 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <style>
-      .box {
-        border: 5px solid red;
-      }
-      .margin-top {
-        margin-top: 10px;
-      }
-
-      #navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      .debug {
-        border: 2px solid blue;
-      }
-
-      .div-center {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .div-column {
-        display: flex;
-        justify-content: space-between;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="box" id="navbar">
-      <div class="debug">Logo</div>
-      <button type="button" class="debug">Sign Up</button>
-    </div>
-    <div class="box margin-top div-center">
-      <p class="debug">Cool Dark UI Template for bla blaa bla blaa</p>
-      <button type="button" class="debug">Stay Focused</button>
-    </div>
+    <div class="nav-background-img">
+      <div class="space-all nav-margin">
+        <img width="100px" src="./Assets/element/logo.png" alt="null" />
+        <button type="button" class="custom-button">Sign Up</button>
+      </div>
+      <!--div1-->
 
-    <div class="box margin-top div-column">
-      <div class="debug">
-        <p>See It in Action</p>
-        <p>
-          explore the live preview and imagine your brand this bold new look
-        </p>
-        <button type="button">Launch Live Preview</button>
-      </div>
-      <img src="https://placehold.co/403x328" alt="none" />
-    </div>
-    <div class="box margin-top">
-      <div class="debug">join the</div>
-      <div class="debug div-column">
-        <div class="debug">
-          50k <br />
-          actuin
-        </div>
-        <div class="debug">
-          2m+ <br />
-          Focus
-        </div>
-        <div class="debug">
-          95% <br />
-          satisfaction rate
+      <div class="div-center div-2">
+        <span id="nav-header">Cool Dark UI Template for Webflow Agencies!</span>
+
+        <div class="button2">
+          <button type="button" class="custom-button">Stay Focused</button>
         </div>
       </div>
+      <!--div2-->
     </div>
-    <div class="box margin-top">
+    <!--background image div-->
+
+    <div class="margin-div div-column">
+      <div class="div-3-margin">
+        <span style="font-weight: bolder; font-size: 42px"
+          >See It in Action</span
+        >
+        <span style="color: #8c8c8d; font-size: 24px">
+          Explore the live preview and imagine your brand this bold new look
+        </span>
+        <button type="button" class="custom-button button3">
+          Launch Live Preview
+        </button>
+      </div>
+      <img
+        style="border-radius: 43px"
+        src="./Assets/provided/wc-mini.png"
+        alt="none"
+      />
+    </div>
+    <!--div3-->
+
+    <div class="container-margin">
+      <div class="container-text">Joined Thousands of Productive Users</div>
+      <div style="margin-top: 40px" class="div-column">
+        <div class="div-4-middle-text-margin">
+          <span class="div-4-middle-text">50k </span>
+          <br />
+          Active Users
+        </div>
+        <div class="div-4-middle-text-margin">
+          <span class="div-4-middle-text">2m+</span>
+          <br />Focus Sessions
+        </div>
+        <div>
+          <span class="div-4-middle-text">95%</span><br />
+          Satisfaction Rate
+        </div>
+      </div>
+    </div>
+    <!--div4-->
+    <div class="box div-center margin-div">
       <h3>What our users say</h3>
       <div class="div-column">
         <div class="debug">card 1</div>
@@ -81,11 +78,13 @@
         <div class="debug">card 3</div>
       </div>
     </div>
+    <!--div5-->
     <div class="box margin-top div-center">
       <span> Ready to focus better </span>
       <p>This template instantly leveled up our presence.</p>
       <img src="https://placehold.co/840x364" alt="none" />
     </div>
+    <!--div6-->
     <div class="box margin-top div-column">
       <div>Lets get in the car</div>
       <div>
@@ -101,6 +100,8 @@
         <input type="text" name="message" id="" />
       </div>
     </div>
+    <!--div7-->
     <div class="box margin-top">div8</div>
+    <!--div8-->
   </body>
 </html>
