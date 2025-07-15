@@ -42,6 +42,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color: #e5e7ff;
 }
 
 .custom-button {
@@ -110,4 +111,19 @@ body {
 
 .card-star {
   display: inline-block;
+  margin-bottom: 24px;
+}
+
+.card-body {
+  margin: 24px;
+  border-radius: 14px;
+  background-color: white;
+  padding: 24px;
+}
+
+.card-bottom {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
 }
