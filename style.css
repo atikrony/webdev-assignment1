@@ -1,5 +1,11 @@
-.box {
-  border: 5px solid red;
+.div-5-header {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.textfield-div7::placeholder {
+  padding-left: 10px;
 }
 
 .margin-div {
@@ -14,10 +20,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.debug {
-  border: 2px solid blue;
 }
 
 .div-center {
@@ -51,6 +53,7 @@ body {
   padding: 12px 36px;
   background-color: #4e47ff;
   color: rgb(255, 255, 255);
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 #nav-header {
@@ -61,7 +64,9 @@ body {
 
 .button2 {
   margin: 37px auto 152px auto;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
 .div-2 {
   margin: 158px 267px;
 }
@@ -93,7 +98,6 @@ body {
   font-size: 38px;
   color: #252432;
   font-weight: bold;
-  
 }
 
 .div-4-middle-text {
@@ -126,22 +130,7 @@ body {
   margin-top: 24px;
   display: flex;
   flex-direction: row;
-  gap: 20px;
-}
-
-.div-5 {
-  margin-top: 137px;
-  margin-bottom: 93px;
-  padding-top: 71px;
-  padding: 71px 150px;
-  background-color: white;
-  border-radius: 14px;
-}
-
-.div-5-header {
-  font-size: 50px;
-  font-weight: bold;
-  padding-bottom: 20px;
+  margin-right: 20px;
 }
 
 .div-5-p {
@@ -156,6 +145,16 @@ body {
   padding: 12px 36px;
   border-radius: 14px;
   border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.div-5-button:hover,
+.button2:hover,
+.button3:hover,
+.custom-button:hover {
+  color: black;
+  background-color: yellow;
+  transform: scale(1.05);
 }
 
 .div-5img {
@@ -186,4 +185,24 @@ body {
   height: 70px;
   border-radius: 10px;
   margin-top: 10px;
+}
+
+.div-7font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+}
+
+.email-hint {
+  font-size: 16px;
+  color: #888;
+  margin-top: 4px;
+  display: block;
+  font-style: italic;
+  content: "example@email.com";
+}
+
+footer {
+  margin-bottom: 103px;
 }
