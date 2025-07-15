@@ -93,6 +93,7 @@ body {
   font-size: 38px;
   color: #252432;
   font-weight: bold;
+  
 }
 
 .div-4-middle-text {
@@ -160,4 +161,29 @@ body {
 .div-5img {
   border-radius: 14px;
   margin: 20px 150px;
+}
+.div-7-text {
+  font-size: 97px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 528px;
+}
+
+.div-7-left {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.div-7-right {
+  width: 497px;
+}
+
+.textfield-div7 {
+  width: 497px;
+  height: 70px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
